@@ -1,8 +1,10 @@
-# Example: New Starter Access Request
+# Completed Scenario Example: Weekly Operational Status Report
 
-This example shows how Metrics Based Process Mapping can be applied to a common access request process.
+This example shows a completed scenario using the Metrics Based Process Mapping approach.
 
-It is intended as a simple worked example for facilitators and participants. The numbers are illustrative only and should be replaced with real data when applying the method in an organisation.
+It is intended to demonstrate how a team might capture a process, add lightweight metrics, assess the automation opportunity, and decide the next best action.
+
+The scenario and numbers are illustrative only. Replace them with real information when using this method in an organisation.
 
 > **Map the work. Measure the pain. Automate with purpose.**
 
@@ -12,25 +14,26 @@ It is intended as a simple worked example for facilitators and participants. The
 
 ### Process name
 
-New starter access request
+Weekly operational status report
 
 ### Short description
 
-When a new employee joins the organisation, their manager requests access to the systems, applications and shared folders the employee needs for their role.
+Each week, an operations team produces a status report for senior stakeholders. The report summarises current work volumes, open issues, overdue actions, risks, upcoming milestones and commentary from several teams.
 
-The current process relies on email, manual approval, manual provisioning and follow-up messages between the manager, approver and IT support team.
+The current process relies on manual data collection, spreadsheet updates, copy-and-paste reporting, email follow-ups and manual formatting.
 
 ### Why this process was selected
 
 This process was selected because it is:
 
-* repeated regularly
-* time-sensitive
-* manual in several places
-* dependent on multiple teams
-* affected by incomplete information
-* visible to new employees and hiring managers
-* likely to create poor experience when delayed
+* repeated every week
+* manual and time-consuming
+* dependent on multiple contributors
+* affected by late or inconsistent input
+* spreadsheet-heavy
+* difficult to validate quickly
+* highly visible to stakeholders
+* a regular source of frustration for the report owner
 
 ---
 
@@ -38,108 +41,108 @@ This process was selected because it is:
 
 ### Trigger
 
-A manager needs access provisioned for a new starter before or shortly after their start date.
+The weekly report cycle begins every Monday morning when the report owner starts collecting inputs for the Friday status report.
 
 ### Desired outcome
 
-The new starter has the correct access required for their role by their first day, or as soon as practicable after joining.
+A complete, accurate and consistent status report is distributed to stakeholders by midday Friday.
 
 ### Primary users / stakeholders
 
-| Role                      | Involvement                                                        |
-| ------------------------- | ------------------------------------------------------------------ |
-| Hiring manager            | Submits the access request and confirms what the new starter needs |
-| Approver / team lead      | Reviews and approves the request where required                    |
-| IT support / service desk | Provisions access or routes the request to the right team          |
-| Application owner         | Approves or provisions access for specific systems                 |
-| New starter               | Receives access and is able to begin work                          |
+| Role                       | Involvement                                                                             |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| Report owner               | Coordinates the process, gathers inputs, updates the report and sends the final version |
+| Team leads                 | Provide updates, commentary, risks and milestones                                       |
+| Operations analysts        | Provide data extracts and status information                                            |
+| Senior stakeholders        | Receive and use the final report                                                        |
+| Programme / delivery teams | May be asked to clarify actions, risks or milestone status                              |
 
 ### Systems, tools and channels used
 
 * email
-* access request form
-* service desk ticketing system
-* identity / access management system
-* application admin consoles
-* spreadsheets or shared trackers
-* chat or messaging tools for follow-up
+* shared spreadsheet
+* reporting dashboard
+* service management system
+* project tracking tool
+* document template
+* presentation or PDF export
+* chat messages for follow-up
 
 ---
 
 ## 3. Current process map
 
-This is a simplified view of the current process.
-
 ```text
-Manager identifies access need
+Monday: Report owner starts weekly report cycle
         ↓
-Manager submits access request
+Report owner sends reminder to contributors
         ↓
-Request checked for completeness
+Team leads and analysts gather updates
         ↓
-Is information complete?
+Inputs received by report owner
+        ↓
+Are inputs complete?
         ↓
    ┌───────────────┐
    │               │
   No              Yes
    │               │
    ↓               ↓
-Request returned   Approval required?
-for clarification        ↓
-   │               ┌───────────────┐
-   │               │               │
-   ↓              Yes              No
-Manager updates    │               │
-request            ↓               ↓
-   │          Approver reviews   IT provisions
-   └───────────────┐ request      standard access
-                   ↓               ↓
-             Approved?             Access confirmed
-                   ↓               ↓
-             ┌───────────────┐     New starter notified
-             │               │
-            No              Yes
-             │               │
-             ↓               ↓
-          Request       IT provisions
-          declined      access
-                         ↓
-                  Access confirmed
-                         ↓
-                  New starter notified
+Follow up with     Report owner updates spreadsheet
+missing teams             ↓
+   │                Pull latest dashboard data
+   │                       ↓
+   └──────────────→ Compare data with team inputs
+                           ↓
+                    Are inconsistencies found?
+                           ↓
+                    ┌───────────────┐
+                    │               │
+                   Yes              No
+                    │               │
+                    ↓               ↓
+              Clarify with teams     Draft report narrative
+                    │               ↓
+                    └────────────→ Format final report
+                                    ↓
+                             Send for review
+                                    ↓
+                             Final changes made
+                                    ↓
+                             Report distributed
 ```
 
 ---
 
 ## 4. Process mapping canvas
 
-| Element             | Notes                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Process name**    | New starter access request                                                                                      |
-| **Trigger**         | A new employee is due to start and needs access to systems and folders                                          |
-| **Outcome**         | New starter has the correct access for their role                                                               |
-| **Main steps**      | Manager submits request; request checked; approval obtained; IT provisions access; user notified                |
-| **Roles involved**  | Manager, approver, IT support, application owner, new starter                                                   |
-| **Systems used**    | Email, access form, service desk, identity system, application consoles, spreadsheets                           |
-| **Decision points** | Is information complete? Is approval required? Is access approved?                                              |
-| **Handoffs**        | Manager to approver; approver to IT; IT to application owner; IT to new starter                                 |
-| **Exceptions**      | Missing information, unclear role requirements, approval delay, application-specific access, duplicate requests |
+| Element             | Notes                                                                                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Process name**    | Weekly operational status report                                                                                                                   |
+| **Trigger**         | Weekly reporting cycle starts every Monday morning                                                                                                 |
+| **Outcome**         | Accurate report distributed by midday Friday                                                                                                       |
+| **Main steps**      | Send reminder; gather updates; update spreadsheet; pull dashboard data; check inconsistencies; draft commentary; format report; review; distribute |
+| **Roles involved**  | Report owner, team leads, analysts, senior stakeholders, delivery teams                                                                            |
+| **Systems used**    | Email, spreadsheet, dashboard, service management system, project tracking tool, report template, chat                                             |
+| **Decision points** | Are inputs complete? Are inconsistencies found? Is report approved for distribution?                                                               |
+| **Handoffs**        | Report owner to contributors; contributors to report owner; report owner to reviewers; reviewers back to report owner                              |
+| **Exceptions**      | Late inputs, missing commentary, conflicting data, dashboard not updated, urgent issue added late, report owner unavailable                        |
 
 ---
 
 ## 5. Pain points and evidence
 
-The table below adds lightweight evidence to the process.
-
-| Step                        | Pain point                               | Example metric / evidence                       | Impact                                            |
-| --------------------------- | ---------------------------------------- | ----------------------------------------------- | ------------------------------------------------- |
-| Manager submits request     | Requests often miss required information | Estimated 30% of requests require clarification | Rework for manager and IT; delays for new starter |
-| Request checked             | Completeness check is manual             | 5–10 minutes per request                        | Repeated low-value effort                         |
-| Approval required           | Approval often waits in email            | 1–2 day average approval delay                  | Access not ready on time                          |
-| IT provisions access        | Standard access is manually provisioned  | 20 minutes touch time per request               | Manual effort and inconsistent handling           |
-| Application-specific access | Different systems have different rules   | Exceptions in 20–25% of requests                | Harder to automate end to end                     |
-| User notified               | Notifications are manual or inconsistent | Some users chase status updates                 | Poor visibility and avoidable follow-up           |
-| Access reviewed later       | No consistent post-start review          | Review often missed or delayed                  | Risk of over-provisioning or incorrect access     |
+| Step                       | Pain point                                       | Example metric / evidence                | Impact                               |
+| -------------------------- | ------------------------------------------------ | ---------------------------------------- | ------------------------------------ |
+| Reminder sent              | Contributors rely on manual email reminders      | 1–2 reminder emails per team each week   | Repeated coordination effort         |
+| Updates gathered           | Inputs arrive in different formats               | 6–8 contributors, inconsistent templates | Manual consolidation and rework      |
+| Missing inputs followed up | Late or missing updates are common               | 30–40% of contributors need follow-up    | Delay and status chasing             |
+| Spreadsheet updated        | Report owner manually copies and formats data    | 60–90 minutes each week                  | Repetitive manual effort             |
+| Dashboard data pulled      | Data is available but not integrated into report | 3–4 data sources checked manually        | Risk of mismatch or outdated figures |
+| Inconsistencies checked    | Conflicting numbers need clarification           | 2–3 inconsistencies per week             | Rework and delay                     |
+| Narrative drafted          | Commentary is manually rewritten                 | 45–60 minutes each week                  | Effort and inconsistency in tone     |
+| Report reviewed            | Review happens late in the cycle                 | 1–2 day wait time                        | Final report often rushed            |
+| Final report distributed   | Distribution list and version control are manual | Occasional wrong version or late send    | Stakeholder confidence risk          |
 
 ---
 
@@ -147,68 +150,68 @@ The table below adds lightweight evidence to the process.
 
 ### Effort
 
-| Metric            |                   Example estimate | Notes                                            |
-| ----------------- | ---------------------------------: | ------------------------------------------------ |
-| **Volume**        |              40 requests per month | Includes new starters and internal movers        |
-| **Touch time**    | 25–35 minutes per standard request | Includes checking, provisioning and notification |
-| **Manual effort** |                     Medium to high | Manual checking, provisioning and chasing        |
+| Metric            |   Example estimate | Notes                                                             |
+| ----------------- | -----------------: | ----------------------------------------------------------------- |
+| **Volume**        |  1 report per week | 52 reporting cycles per year                                      |
+| **Touch time**    | 3–5 hours per week | Mainly coordination, consolidation, checking and formatting       |
+| **Manual effort** |               High | Copying data, chasing inputs, formatting and rewriting commentary |
 
 ### Flow
 
-| Metric           |       Example estimate | Notes                                                                       |
-| ---------------- | ---------------------: | --------------------------------------------------------------------------- |
-| **Cycle time**   |      2–5 business days | End-to-end from request to access confirmation                              |
-| **Wait time**    |      1–3 business days | Mostly waiting for approval or clarification                                |
-| **Handoffs**     |           3–5 handoffs | Manager, approver, IT, application owner, user                              |
-| **Systems used** | 5–7 systems / channels | Email, form, ticketing, identity system, application consoles, spreadsheets |
+| Metric           |       Example estimate | Notes                                                                                    |
+| ---------------- | ---------------------: | ---------------------------------------------------------------------------------------- |
+| **Cycle time**   |      4–5 business days | Monday start to Friday distribution                                                      |
+| **Wait time**    |      1–2 business days | Waiting for updates, clarification and review                                            |
+| **Handoffs**     |        10–15 per cycle | Multiple contributors, reviewers and clarification loops                                 |
+| **Systems used** | 6–8 systems / channels | Email, spreadsheet, dashboard, service management, project tool, document template, chat |
 
 ### Quality and risk
 
-| Metric              |          Example estimate | Notes                                                   |
-| ------------------- | ------------------------: | ------------------------------------------------------- |
-| **Rework / errors** | 30% require clarification | Mostly missing or unclear information                   |
-| **Exceptions**      |                    20–25% | Application-specific access or non-standard role needs  |
-| **Risk impact**     |                    Medium | Incorrect access can create security or compliance risk |
-| **User impact**     |                      High | Delays affect new starter experience and productivity   |
+| Metric              |         Example estimate | Notes                                                                        |
+| ------------------- | -----------------------: | ---------------------------------------------------------------------------- |
+| **Rework / errors** | 2–3 corrections per week | Mostly inconsistent data or missing commentary                               |
+| **Exceptions**      |  30–40% of weekly cycles | Late inputs, urgent issues, missing data or dashboard mismatch               |
+| **Risk impact**     |                   Medium | Inaccurate reporting may affect stakeholder decisions                        |
+| **User impact**     |           Medium to high | Report owner frustration; stakeholders may lose confidence in report quality |
 
 ---
 
 ## 7. What the evidence suggests
 
-The process has several automation opportunities, but not all pain points should be treated the same way.
-
 ### Key observations
 
-1. **Missing information is a major cause of rework.**
-   This suggests improving the intake form and validation rules before or alongside automation.
+1. **The process is regular and repeated.**
+   The weekly cadence creates a strong case for improving the process because effort accumulates over time.
 
-2. **A lot of the delay is wait time, not touch time.**
-   This suggests workflow routing, reminders and approval visibility may create value.
+2. **The main pain is not one task.**
+   The pain comes from coordination, inconsistent inputs, manual consolidation, checking and review delay.
 
-3. **Standard access may be a good automation candidate.**
-   Repetitive, rules-based provisioning for common roles could be automated.
+3. **Some data is already available digitally.**
+   Dashboard and system data may not need to be manually copied if reporting integration or export automation is possible.
 
-4. **Application-specific access may need further analysis.**
-   Exceptions and different approval rules may make full automation harder.
+4. **Input standardisation is needed before full automation.**
+   Team updates arrive in inconsistent formats, which increases manual rework and makes automation harder.
 
-5. **Notifications and status updates are likely quick wins.**
-   Automated confirmation, status updates and reminders could reduce chasing.
+5. **There are likely quick wins around reminders and status visibility.**
+   Automated reminders, due dates and submission tracking could reduce chasing.
 
-6. **Access review may need governance clarification.**
-   Scheduled review workflows may help, but ownership and policy rules need to be clear.
+6. **Full report automation may not be ready yet.**
+   Commentary, interpretation and risk narrative still require human judgement.
 
 ---
 
 ## 8. Pain point to possible response
 
-| Pain point                            | Likely response                     | Notes                                                                 |
-| ------------------------------------- | ----------------------------------- | --------------------------------------------------------------------- |
-| Missing request information           | Improve first                       | Add mandatory fields, guidance, validation and role-based options     |
-| Approval delays                       | Automate / improve                  | Workflow routing, reminders and escalation rules                      |
-| Manual standard provisioning          | Automate now or investigate further | Strong candidate if access rules are clear and systems are accessible |
-| Application-specific exceptions       | Investigate further                 | Needs deeper analysis of rules, systems and approval paths            |
-| Manual status updates                 | Automate now                        | Automated notifications or dashboard likely feasible                  |
-| Inconsistent post-start access review | Improve first                       | Clarify ownership, timing and review policy before automating         |
+| Pain point          | Likely response                    | Notes                                                          |
+| ------------------- | ---------------------------------- | -------------------------------------------------------------- |
+| Manual reminders    | Automate now                       | Schedule reminders and due date notifications                  |
+| Inconsistent inputs | Improve first                      | Standard input template or form required                       |
+| Manual data copying | Investigate further                | Assess whether dashboard or system exports can feed the report |
+| Missing updates     | Improve / automate                 | Use workflow tracking and submission status visibility         |
+| Conflicting data    | Improve first                      | Clarify source of truth for key metrics                        |
+| Manual formatting   | Automate now / investigate further | Template automation or document generation may help            |
+| Narrative rewriting | Improve first                      | Standard commentary prompts may reduce rewriting               |
+| Late review         | Improve first                      | Agree earlier review checkpoint or escalation path             |
 
 ---
 
@@ -216,30 +219,30 @@ The process has several automation opportunities, but not all pain points should
 
 ### Value
 
-| Question               | Assessment                                                                               |
-| ---------------------- | ---------------------------------------------------------------------------------------- |
-| Is this worth solving? | Yes                                                                                      |
-| Why?                   | Reduces delay, manual effort, rework and poor new starter experience                     |
-| Main value drivers     | Faster access, fewer clarification loops, reduced manual provisioning, better visibility |
-| Value level            | High                                                                                     |
+| Question               | Assessment                                                                        |
+| ---------------------- | --------------------------------------------------------------------------------- |
+| Is this worth solving? | Yes                                                                               |
+| Why?                   | The process is repeated weekly and consumes several hours of effort each cycle    |
+| Main value drivers     | Reduced coordination effort, fewer errors, faster reporting, improved consistency |
+| Value level            | High                                                                              |
 
 ### Feasibility
 
-| Question                 | Assessment                                                                                 |
-| ------------------------ | ------------------------------------------------------------------------------------------ |
-| Can this be automated?   | Partially                                                                                  |
-| Why?                     | Standard access and notifications appear feasible; exceptions need more analysis           |
-| Main feasibility factors | System access, clear rules, identity system integration, form validation, workflow routing |
-| Feasibility level        | Medium                                                                                     |
+| Question                 | Assessment                                                                                                             |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Can this be automated?   | Partially                                                                                                              |
+| Why?                     | Reminders, tracking, data exports and formatting may be feasible; narrative and judgement-heavy parts need human input |
+| Main feasibility factors | Availability of structured inputs, dashboard access, export options, report template, workflow tooling                 |
+| Feasibility level        | Medium                                                                                                                 |
 
 ### Readiness
 
-| Question               | Assessment                                                                                            |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
-| Is the process ready?  | Partially                                                                                             |
-| Why?                   | Standard path is understood, but request quality, ownership and exception handling need clarification |
-| Main readiness factors | Process owner, approval rules, role-based access patterns, access review policy                       |
-| Readiness level        | Medium                                                                                                |
+| Question               | Assessment                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------- |
+| Is the process ready?  | Partially                                                                                       |
+| Why?                   | The cycle is stable, but inputs, ownership of data sources and review timing need clarification |
+| Main readiness factors | Standard input format, agreed source of truth, contributor accountability, review deadlines     |
+| Readiness level        | Medium                                                                                          |
 
 ---
 
@@ -247,35 +250,37 @@ The process has several automation opportunities, but not all pain points should
 
 ### Recommended category
 
-**Improve first / Investigate further**
+**Improve first / Automate selected steps**
 
 ### Why
 
-This process has clear value and several promising automation opportunities, but the full process is not ready to automate end to end.
+The process has clear value because it is repeated weekly and creates regular manual effort. However, the whole process is not ready for end-to-end automation.
 
-The strongest near-term opportunities are:
+Some steps are good candidates for immediate automation or workflow improvement, while others need standardisation or clarification first.
 
-* improve the intake form
-* add validation and guidance
-* automate approval routing and reminders
-* automate status notifications
-* investigate standard access provisioning for common roles
+### Summary judgement
 
-The process should not be treated as one large automation initiative without separating the standard path from exceptions.
+| Area                  | Assessment                                             |
+| --------------------- | ------------------------------------------------------ |
+| Overall value         | High                                                   |
+| Technical feasibility | Medium                                                 |
+| Process readiness     | Medium                                                 |
+| Recommended approach  | Improve first, then automate selected repeatable steps |
 
 ---
 
-## 11. Candidate automation opportunities
+## 11. Candidate opportunities
 
-| Opportunity                                             | Type                                     | Category                           | Notes                                          |
-| ------------------------------------------------------- | ---------------------------------------- | ---------------------------------- | ---------------------------------------------- |
-| Improve request form with mandatory fields and guidance | Process improvement                      | Improve first                      | Reduces missing information and rework         |
-| Add role-based access options                           | Process improvement / automation enabler | Improve first                      | Makes standard access easier to automate later |
-| Route approvals automatically                           | Workflow automation                      | Automate now / investigate further | Depends on approval rules and tooling          |
-| Send approval reminders                                 | Workflow automation                      | Automate now                       | Likely quick win                               |
-| Send status notifications                               | Workflow automation                      | Automate now                       | Reduces chasing and improves visibility        |
-| Provision standard access for common roles              | System automation                        | Investigate further                | Requires clear rules and system integration    |
-| Schedule post-start access review                       | Workflow / governance                    | Improve first                      | Needs clear ownership and review policy        |
+| Opportunity                                | Type                  | Category            | Notes                                            |
+| ------------------------------------------ | --------------------- | ------------------- | ------------------------------------------------ |
+| Automated weekly reminders                 | Workflow automation   | Automate now        | Simple, low-risk, reduces chasing                |
+| Standard input form or template            | Process improvement   | Improve first       | Needed before further automation                 |
+| Submission tracker                         | Workflow / visibility | Automate now        | Shows who has submitted and who is overdue       |
+| Dashboard data export into reporting sheet | Data automation       | Investigate further | Depends on system access and data structure      |
+| Automated report formatting                | Document automation   | Investigate further | May reduce repetitive formatting effort          |
+| Standard commentary prompts                | Process improvement   | Improve first       | Reduces rewriting and improves consistency       |
+| Earlier review checkpoint                  | Process improvement   | Improve first       | Reduces last-minute changes and delay            |
+| Final distribution automation              | Workflow automation   | Automate now        | Helps manage version control and delivery timing |
 
 ---
 
@@ -283,61 +288,128 @@ The process should not be treated as one large automation initiative without sep
 
 ### Next best action
 
-Map the standard access request path in more detail and validate the metrics with the people who do the work.
+Standardise the weekly input process and automate simple workflow steps before attempting broader report automation.
 
 ### Follow-up actions
 
-| Action                                                               | Owner     | Notes                                      |
-| -------------------------------------------------------------------- | --------- | ------------------------------------------ |
-| Validate current process map with manager, approver and IT support   | `[OWNER]` | Confirm normal path and common exceptions  |
-| Gather actual volume for last 3 months                               | `[OWNER]` | Include new starters and internal movers   |
-| Measure average cycle time and wait time                             | `[OWNER]` | Use ticketing or request data if available |
-| Review incomplete request rate                                       | `[OWNER]` | Check how often clarification is required  |
-| Identify top 5 standard access patterns                              | `[OWNER]` | Helps test role-based automation potential |
-| Confirm approval rules and process owner                             | `[OWNER]` | Required before automation design          |
-| Identify systems that can support integration or workflow automation | `[OWNER]` | Technical feasibility assessment           |
+| Action                                         | Owner     | Notes                                                      |
+| ---------------------------------------------- | --------- | ---------------------------------------------------------- |
+| Confirm report owner and process owner         | `[OWNER]` | Ownership is required before redesigning the process       |
+| Define standard input template or form         | `[OWNER]` | Include status, risks, milestones, blockers and commentary |
+| Identify source of truth for each metric       | `[OWNER]` | Avoid conflicting data sources                             |
+| Measure current report effort over 4 weeks     | `[OWNER]` | Capture actual touch time and wait time                    |
+| Track missing or late submissions for 4 cycles | `[OWNER]` | Validate follow-up and rework assumptions                  |
+| Assess dashboard export options                | `[OWNER]` | Technical feasibility check                                |
+| Create simple submission tracker               | `[OWNER]` | Quick win for visibility                                   |
+| Test automated reminders                       | `[OWNER]` | Low-risk automation candidate                              |
 
 ---
 
-## 13. What this example teaches
+## 13. Suggested future-state concept
 
-This example shows why Metrics Based Process Mapping is useful.
+This is not a final design, but a possible direction based on the assessment.
+
+```text
+Weekly cycle starts automatically
+        ↓
+Automated reminder sent to contributors
+        ↓
+Contributors submit updates through standard form
+        ↓
+Submission tracker updates automatically
+        ↓
+Dashboard data imported or linked
+        ↓
+Report owner reviews exceptions and commentary
+        ↓
+Draft report generated from template
+        ↓
+Reviewer approves or requests changes
+        ↓
+Final report distributed automatically
+```
+
+### What remains human-led
+
+* interpreting risks and issues
+* writing or approving sensitive commentary
+* resolving conflicting information
+* deciding escalation actions
+* confirming final stakeholder messaging
+
+### What could be automated or improved
+
+* reminders
+* input collection
+* submission tracking
+* data import or export
+* formatting
+* version control
+* distribution
+
+---
+
+## 14. What this example teaches
+
+This example shows that a process can be a strong improvement candidate even when full automation is not the right first step.
 
 Without mapping and metrics, the opportunity might be described too broadly as:
 
-> “Automate new starter access.”
+> “Automate the weekly report.”
 
 After mapping the process and adding evidence, the opportunity becomes more specific:
 
-* improve the request intake
-* reduce missing information
-* automate approval reminders
-* improve status visibility
-* investigate standard access provisioning
-* clarify governance for access reviews
+* standardise inputs
+* clarify source of truth
+* automate reminders
+* track submissions
+* reduce manual data copying
+* investigate report generation
+* keep judgement-heavy commentary human-led
 
-The more useful conclusion is not “automate everything”.
+The better conclusion is not “automate the whole report”.
 
-The more useful conclusion is:
+The better conclusion is:
 
-> Improve the process first, automate the standard and repetitive parts, and investigate the more complex exceptions separately.
-
----
-
-## 14. Example summary
-
-| Area                        | Summary                                                                                    |
-| --------------------------- | ------------------------------------------------------------------------------------------ |
-| **Process**                 | New starter access request                                                                 |
-| **Main pain**               | Missing information, approval delay, manual provisioning, poor visibility                  |
-| **Main evidence**           | 30% clarification rate, 2–5 day cycle time, 25–35 minutes touch time, 3–5 handoffs         |
-| **Strongest opportunities** | Intake improvement, approval reminders, status notifications, standard access provisioning |
-| **Primary category**        | Improve first / investigate further                                                        |
-| **Next best action**        | Validate the standard process path and gather actual metrics                               |
+> Standardise the process first, automate the repeatable workflow steps, and investigate data integration and report generation separately.
 
 ---
 
-## 15. Reusable lesson
+## 15. Example summary
+
+| Area                        | Summary                                                                                      |
+| --------------------------- | -------------------------------------------------------------------------------------------- |
+| **Process**                 | Weekly operational status report                                                             |
+| **Main pain**               | Manual coordination, inconsistent inputs, data copying, late review, rework                  |
+| **Main evidence**           | 3–5 hours weekly touch time, 4–5 day cycle time, 10–15 handoffs, 2–3 corrections per week    |
+| **Strongest opportunities** | Automated reminders, standard input form, submission tracker, data export, report formatting |
+| **Primary category**        | Improve first / automate selected steps                                                      |
+| **Next best action**        | Standardise inputs and validate effort, delay and rework metrics over four cycles            |
+
+---
+
+## 16. Completed scenario capture
+
+| Question                                                       | Response                                                                                               |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| What process are we discussing?                                | Weekly operational status report                                                                       |
+| Where does it start?                                           | Monday morning report cycle begins                                                                     |
+| Where does it end?                                             | Final report distributed to stakeholders by Friday midday                                              |
+| Who is involved?                                               | Report owner, team leads, analysts, reviewers, senior stakeholders                                     |
+| What systems are used?                                         | Email, spreadsheet, dashboard, service management system, project tool, document template, chat        |
+| Where is the pain?                                             | Chasing updates, inconsistent inputs, manual copying, checking, formatting, late review                |
+| Is the pain mainly effort, flow, quality, risk or user impact? | Effort and flow, with some quality and stakeholder confidence risk                                     |
+| What evidence do we have?                                      | Estimated 3–5 hours weekly effort, 4–5 day cycle, 30–40% late/missing inputs, 2–3 corrections per week |
+| What are we assuming?                                          | That reminder automation and standard templates will reduce chasing and rework                         |
+| What evidence is missing?                                      | Actual effort over several cycles, late submission rate, source-of-truth gaps, feasibility of exports  |
+| Is the likely response automation, improvement or both?        | Both — improve inputs and automate repeatable workflow steps                                           |
+| What needs to be clarified?                                    | Process owner, input standard, source of truth, review deadlines, export options                       |
+| What is the next best action?                                  | Standardise input collection and validate current metrics over four reporting cycles                   |
+| Who needs to be involved next?                                 | Report owner, contributors, data owners, dashboard/reporting support, reviewers                        |
+
+---
+
+## 17. Reusable lesson
 
 When applying this method to other processes, avoid asking only:
 
