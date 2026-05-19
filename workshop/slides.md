@@ -1,248 +1,85 @@
-# Facilitator Guide: Metrics Based Process Mapping Workshop
+# Slides: Metrics Based Process Mapping Workshop
 
-This guide is for facilitators running the **Metrics Based Process Mapping for Automation Discovery** workshop.
+This file is the markdown source of truth for the workshop slide content.
 
-The session is designed as a practical, guided conversation that helps teams identify automation opportunities using process mapping, lightweight metrics and evidence-based prioritisation.
+It is intended to support creation of a designed slide deck, not to replace the final presentation file.
 
-> **Map the work. Measure the pain. Automate with purpose.**
+Each slide includes:
 
----
-
-## 1. Workshop overview
-
-### Purpose
-
-The purpose of this workshop is to help teams move from assumption-led automation ideas to evidence-led discovery.
-
-It gives participants a practical way to:
-
-* understand how work happens today
-* identify where effort, delay, rework, risk or poor experience exists
-* add lightweight metrics to make the pain visible
-* decide whether automation is the right response
-* assess opportunities using value, feasibility and readiness
-* identify the next best action for candidate processes
-
-The goal is not to create perfect process maps or fully design automation solutions in the room. The goal is to help the team make better discovery decisions.
+* slide title
+* layout note
+* on-slide content
+* key message
+* speaker notes
 
 ---
 
-## 2. Intended audience
+## Workshop title
 
-This workshop is suitable for teams that are exploring organisational automation opportunities.
+**Metrics Based Process Mapping for Automation Discovery**
 
-It may be useful for:
-
-* automation teams
-* platform teams
-* operations teams
-* service delivery teams
-* business improvement teams
-* transformation teams
-* process owners
-* business analysts
-* product owners
-* technology teams working with business stakeholders
-
-Participants do not need prior experience in process mapping, Lean, BPMN, value stream mapping or automation discovery.
+**Tagline:** Map the work. Measure the pain. Automate with purpose.
 
 ---
 
-## 3. Recommended duration
+## Slide list
 
-The workshop is designed as a **90-minute core session** inside a **2-hour calendar hold**.
-
-The extra 30 minutes gives the facilitator space for:
-
-* late starts
-* questions
-* deeper discussion
-* additional scenarios
-* overrun without rushing the close
-
-### Recommended timing
-
-|       Time | Section           | Focus                                       |
-| ---------: | ----------------- | ------------------------------------------- |
-|   0–5 mins | Welcome and setup | Purpose, structure and expectations         |
-|  5–15 mins | Why               | Why automation discovery needs evidence     |
-| 15–30 mins | What              | What Metrics Based Process Mapping gives us |
-| 30–60 mins | How               | How to map, measure and assess              |
-| 60–85 mins | Apply             | Scenario clinic using real examples         |
-| 85–90 mins | Wrap-up           | Next steps and close                        |
-
----
-
-## 4. Workshop outcomes
-
-By the end of the workshop, participants should be able to:
-
-1. Explain why automation discovery should be evidence-led.
-2. Describe the core idea of Metrics Based Process Mapping.
-3. Map a process at a practical discovery level.
-4. Identify useful metrics such as volume, cycle time, touch time, wait time, handoffs, rework, exceptions and risk.
-5. Distinguish between process pain, process improvement and automation opportunity.
-6. Assess automation candidates using value, feasibility and readiness.
-7. Categorise opportunities as:
-
-   * automate now
-   * improve first
-   * investigate further
-   * do not automate yet
-8. Identify the next best action for a candidate automation opportunity.
+1. Title
+2. How today will run
+3. Section divider — Why
+4. From assumption-led to evidence-led automation
+5. Common automation traps
+6. Section divider — What
+7. The core model
+8. Process mapping basics
+9. What makes it metrics-based?
+10. Section divider — How
+11. What to capture when mapping
+12. Metrics that matter for automation discovery
+13. Time is not one thing
+14. From pain point to possible response
+15. Assessing automation opportunities
+16. Strong vs less ready automation candidates
+17. Section divider — Apply
+18. Scenario clinic
+19. Wrap-up and next steps
 
 ---
 
-## 5. Expected outputs
+# Slide 1 — Title
 
-The workshop should produce:
+## Slide title
 
-* a shared understanding of the discovery method
-* one or more real scenarios tested against the method
-* early categorisation of candidate opportunities
-* a list of missing evidence or metrics
-* agreement on next best actions
-* a small set of candidate processes for deeper follow-up
+Metrics Based Process Mapping for Automation Discovery
 
-A successful workshop does not need to produce a completed automation backlog. It should help the team identify what is worth taking forward and what needs further validation.
+## Layout note
 
----
+Title slide with strong visual emphasis on the three-part tagline.
 
-## 6. Facilitator preparation
+Recommended layout:
 
-Before the session, the facilitator should:
+* large title on left or centre
+* tagline split across three lines
+* short supporting sentence at bottom
+* simple process / metrics / automation visual
 
-1. Review the slide content and speaker notes.
-2. Send the pre-read email to participants.
-3. Ask participants to bring one candidate process.
-4. Prepare a whiteboard, shared document or canvas for the scenario clinic.
-5. Decide whether the session will use one shared scenario or multiple participant scenarios.
-6. Prepare one simple worked example in case participants do not bring suitable examples.
+## On-slide content
 
-### Recommended materials
+# Metrics Based Process Mapping for Automation Discovery
 
-* slide deck or `workshop/slides.md`
-* `pre-work/pre-read.md`
-* `templates/scenario-clinic-capture.md`
-* `templates/metrics-checklist.md`
-* `templates/automation-opportunity-assessment.md`
-* `templates/opportunity-backlog.md`
-* whiteboard, Miro, Mural, FigJam, Google Doc or equivalent
+## Map the work.
 
----
+## Measure the pain.
 
-## 7. Participant pre-work
+## Automate with purpose.
 
-Participants should be asked to bring one process, workflow or activity that may be a candidate for automation.
+A practical working session for identifying the right automation opportunities — starting with the work, not the tool.
 
-A good example might be something that is:
+## Key message
 
-* manual
-* repetitive
-* slow
-* high-volume
-* risky
-* inconsistent
-* difficult to track
-* approval-heavy
-* spreadsheet-heavy
-* dependent on email handoffs
-* creating rework, duplication or frustration
+Automation discovery should start with the work, not the tool.
 
-Participants do not need to prepare a presentation or complete a process map before the session. A few notes are enough.
-
-### Pre-work questions
-
-Ask participants to think about:
-
-* What starts the process?
-* What outcome is needed?
-* Who is involved?
-* What systems, tools, forms or spreadsheets are used?
-* Where does the process slow down?
-* Where is manual effort involved?
-* What tends to go wrong?
-* Where does rework or duplication happen?
-* What data or metrics do you already have?
-* What evidence would help decide whether this is worth automating?
-
----
-
-## 8. Facilitation principles
-
-### Keep it conversational
-
-The workshop should feel like a guided conversation, not a methodology lecture.
-
-Use the slides as prompts. The facilitator’s role is to help the group slow down, ask better questions and test assumptions.
-
-### Start with the work
-
-When participants jump to a tool or solution, bring them back to the process.
-
-Useful prompts:
-
-* What is the process we are trying to improve?
-* Where does it start and end?
-* Who is involved?
-* Where is the pain?
-* What evidence do we have?
-
-### Separate pain from evidence
-
-Pain is a useful signal, but it needs to be tested.
-
-Useful prompts:
-
-* How often does this happen?
-* How long does it take?
-* How much manual effort is involved?
-* How often does it go wrong?
-* What is the impact if it fails?
-
-### Avoid jumping straight to automation
-
-Automation is one possible response, not the only response.
-
-Other responses may include:
-
-* clearer ownership
-* better intake
-* process simplification
-* standardisation
-* validation
-* policy clarification
-* workflow visibility
-* better reporting
-* system integration
-* further technical investigation
-
-### Focus on the next best action
-
-The scenario clinic does not need to solve the full process.
-
-For each scenario, aim to agree:
-
-1. likely category
-2. missing evidence
-3. next best action
-4. who should be involved next
-
----
-
-## 9. Workshop agenda and delivery guide
-
----
-
-# Section 1: Opening
-
-## Slide 1 — Title slide
-
-### Purpose
-
-Open the session, set the tone and make it clear that this is about practical automation discovery rather than tools or technical implementation.
-
-### Suggested talk track
+## Speaker notes
 
 Welcome everyone. Today’s session is about giving us a simple and practical way to look at automation opportunities.
 
@@ -252,26 +89,48 @@ We are not starting with tools, and we are not assuming automation is always the
 
 The aim is not to create perfect process maps or turn everyone into process improvement specialists. The aim is to create better conversations and better decisions about where automation may genuinely help.
 
-### Key points to land
-
-* This is practical, not theoretical.
-* Automation should be purposeful.
-* We start with the work, not the tool.
-* The session is about better discovery and better decision-making.
-
-### Transition
+## Transition
 
 Let’s start by looking at how the session will run.
 
 ---
 
-## Slide 2 — How today will run
+# Slide 2 — How today will run
 
-### Purpose
+## Slide title
 
-Set expectations and show that the session has a clear structure.
+How Today Will Run
 
-### Suggested talk track
+## Layout note
+
+Use a four-part horizontal flow or four cards:
+
+```text
+Why → What → How → Apply
+```
+
+Include a short note about the 90-minute core session inside the two-hour calendar hold.
+
+## On-slide content
+
+We will work through four parts.
+
+**The aim:** leave with a practical way to identify, assess and prioritise automation opportunities.
+
+| Section   | Focus                                         |
+| --------- | --------------------------------------------- |
+| **Why**   | Why automation discovery needs evidence       |
+| **What**  | What Metrics Based Process Mapping gives us   |
+| **How**   | How to map, measure and assess                |
+| **Apply** | How to test the method against real scenarios |
+
+Two hours on the calendar — core session is 90 minutes, with space for questions, discussion and real examples.
+
+## Key message
+
+The session is structured, but it is designed to be a guided conversation.
+
+## Speaker notes
 
 We will work through four parts: **why, what, how and apply**.
 
@@ -281,27 +140,39 @@ We have two hours in the calendar, but the core session is designed for around 9
 
 The most important part of the session is the application. The content gives us the method, but the value comes from using it against actual work.
 
-### Key points to land
-
-* The workshop is structured but conversational.
-* The 90-minute design allows for buffer.
-* The real value comes from applying the method to actual scenarios.
-
-### Transition
+## Transition
 
 Let’s start with the first question: why does automation discovery need evidence?
 
 ---
 
-# Section 2: Why
+# Slide 3 — Section divider: Why
 
-## Section divider — Why automation discovery needs evidence
+## Slide title
 
-### Purpose
+Why
 
-Signal the start of the first section.
+## Layout note
 
-### Suggested talk track
+Section divider slide.
+
+Use a large **Why** heading and a short subtitle.
+
+## On-slide content
+
+# Section 1
+
+# Why
+
+## Why automation discovery needs evidence
+
+Before we ask **“what can we automate?”** — we need to ask **“what is actually happening?”**
+
+## Key message
+
+Automation discovery needs evidence before solution decisions.
+
+## Speaker notes
 
 Before we ask “what can we automate?”, we need to ask “what is actually happening?”
 
@@ -309,19 +180,42 @@ That sounds obvious, but in practice automation conversations often start with f
 
 This section is about why we need to slow that down just enough to make better decisions.
 
-### Transition
+## Transition
 
 Let’s look at the shift we are trying to make.
 
 ---
 
-## Slide 3 — From assumption-led to evidence-led automation
+# Slide 4 — From assumption-led to evidence-led automation
 
-### Purpose
+## Slide title
 
-Reframe the group from starting with perceived pain or solutions to starting with evidence.
+From Assumption-Led to Evidence-Led Automation
 
-### Suggested talk track
+## Layout note
+
+Two-column layout.
+
+Left column: assumption-led statements.
+Right column: evidence-led questions.
+
+## On-slide content
+
+Pain is a useful signal. Evidence helps us decide what to do next.
+
+| Instead of starting with…          | We want to ask…                   |
+| ---------------------------------- | --------------------------------- |
+| “This process is painful.”         | What exactly is happening?        |
+| “This should be automated.”        | Is automation the right response? |
+| “This takes too long.”             | Where is the time actually going? |
+| “We need a workflow, bot or tool.” | What problem are we solving?      |
+| “Everyone knows this is broken.”   | What evidence do we have?         |
+
+## Key message
+
+Pain is a useful signal, but evidence helps us decide what to do next.
+
+## Speaker notes
 
 It is completely normal for automation ideas to start with frustration: this process is painful, this takes too long, this is manual, this should be automated.
 
@@ -341,29 +235,46 @@ And if someone says, “everyone knows this is broken,” we ask: what evidence 
 
 The goal is not to dismiss people’s experience. The goal is to turn that experience into a clearer view of the process and the opportunity.
 
-### Optional facilitation question
+## Optional facilitation question
 
 When automation ideas come up in your area, do they usually start with the problem, the process or the tool?
 
-### Key points to land
-
-* Pain is a useful signal, but it is not enough.
-* The workshop gives the team a way to ask better questions.
-* Evidence helps prioritise and avoid jumping to solutions.
-
-### Transition
+## Transition
 
 The reason this matters is because there are a few common traps organisations fall into when looking at automation.
 
 ---
 
-## Slide 4 — Common automation traps
+# Slide 5 — Common automation traps
 
-### Purpose
+## Slide title
 
-Help the group recognise the risks of solution-first automation.
+Common Automation Traps
 
-### Suggested talk track
+## Layout note
+
+Use six cards or a two-column grid.
+
+Each card should show the trap and a short explanation.
+
+## On-slide content
+
+We do not want to automate noise. We want to automate where there is clear value.
+
+| Trap                                  | What can happen                                                              |
+| ------------------------------------- | ---------------------------------------------------------------------------- |
+| **Starting with the tool**            | The solution leads the conversation before the problem is understood.        |
+| **Automating the loudest pain point** | The most visible issue gets prioritised, not necessarily the most valuable.  |
+| **Automating a broken process**       | The same problems happen faster — not better.                                |
+| **Ignoring exceptions**               | Automation works only for easy cases; edge cases still need manual handling. |
+| **Missing handoffs**                  | One step improves, but the end-to-end process stays slow.                    |
+| **No baseline metrics**               | Without a starting point, it becomes hard to prove value later.              |
+
+## Key message
+
+Good automation should reduce effort, delay, risk or rework — not just digitise existing frustration.
+
+## Speaker notes
 
 These traps are common, and they usually happen with good intent. People are trying to remove frustration, save time or improve consistency.
 
@@ -379,49 +290,96 @@ The fifth is missing handoffs. One task might get faster, but the end-to-end pro
 
 The last one is no baseline metrics. If we do not know the starting point, it becomes much harder to prove whether the automation has created value.
 
-### Optional facilitation question
+## Optional facilitation question
 
 Which of these traps feels most familiar?
 
-### Key points to land
-
-* These traps are normal, not a sign of failure.
-* Metrics Based Process Mapping helps reduce these risks.
-* The goal is to automate where there is clear value, not just noise.
-
-### Transition
+## Transition
 
 So with that context, let’s look at what this approach gives us.
 
 ---
 
-# Section 3: What
+# Slide 6 — Section divider: What
 
-## Section divider — What Metrics Based Process Mapping gives us
+## Slide title
 
-### Purpose
+What
 
-Move from why the method is needed into what it actually is.
+## Layout note
 
-### Suggested talk track
+Section divider slide.
+
+Use a large **What** heading and short subtitle.
+
+## On-slide content
+
+# Section 2
+
+# What
+
+## What Metrics Based Process Mapping gives us
+
+A practical way to understand the work, evidence the pain and make better automation decisions.
+
+## Key message
+
+The method gives us a practical way to connect process understanding, evidence and automation decisions.
+
+## Speaker notes
 
 Metrics Based Process Mapping gives us a practical way to understand the work, evidence the pain and make better automation decisions.
 
 This is not about applying a heavy methodology. It is about using recognised practices in a lightweight and practical way.
 
-### Transition
+## Transition
 
 The core model is very simple.
 
 ---
 
-## Slide 5 — The core model
+# Slide 7 — The core model
 
-### Purpose
+## Slide title
 
-Introduce the central model for the session.
+The Core Model
 
-### Suggested talk track
+## Layout note
+
+Use three connected blocks across the slide:
+
+1. Process Map
+2. Metrics
+3. Automation Lens
+
+Underneath, show the four-step flow:
+
+```text
+Map the Work → Measure the Pain → Decide the Response → Prioritise Opportunity
+```
+
+## On-slide content
+
+Metrics Based Process Mapping combines three things.
+
+The value comes from the combination — not any single element alone.
+
+| Process Map                      | Metrics                                  | Automation Lens                |
+| -------------------------------- | ---------------------------------------- | ------------------------------ |
+| Shows how work flows             | Shows where pain exists                  | Shows what is worth automating |
+| Steps, roles, systems, decisions | Volume, time, effort, wait, errors, risk | Value, feasibility, readiness  |
+
+```text
+Map the Work → Measure the Pain → Decide the Response → Prioritise Opportunity
+```
+
+This approach draws from recognised practices — process mapping, value stream mapping, process measurement and automation discovery — and applies them in a lightweight, practical way.
+
+## Key message
+
+The value comes from combining process understanding, evidence and an automation assessment lens.
+
+## Speaker notes
 
 Metrics Based Process Mapping combines three things: a process map, metrics and an automation lens.
 
@@ -437,25 +395,48 @@ The practical flow is: **map the work, measure the pain, decide the response and
 
 This approach draws from recognised practices — process mapping, value stream mapping, process measurement and automation discovery — but we are applying them in a lightweight way.
 
-### Key points to land
-
-* The method is a practical blend of recognised practices.
-* The three elements work together.
-* The model is simple and repeatable.
-
-### Transition
+## Transition
 
 Let’s start with the first part: process mapping.
 
 ---
 
-## Slide 6 — Process mapping basics
+# Slide 8 — Process mapping basics
 
-### Purpose
+## Slide title
 
-Explain process mapping in plain language.
+Process Mapping Basics
 
-### Suggested talk track
+## Layout note
+
+Use a simple process flow visual and a short list.
+
+Suggested flow:
+
+```text
+Trigger → Step → Decision → Step → Handoff → Step → Outcome
+```
+
+## On-slide content
+
+A process map is a shared picture of how work happens.
+
+Most people only see their part — mapping helps us see the whole flow.
+
+## What a useful map helps us see
+
+* What starts the process and what outcome is needed
+* The main steps, who is involved and what systems are used
+* Where decisions happen and where handoffs occur
+* Where exceptions arise
+
+You do not need to become a BPMN expert. The value is in creating a shared picture people can look at and say, “Yes, that is how the work actually happens.”
+
+## Key message
+
+A useful process map creates shared understanding.
+
+## Speaker notes
 
 A process map is simply a shared picture of how work happens.
 
@@ -467,25 +448,49 @@ For this session, we do not need to become BPMN experts. Formal notation can be 
 
 The value is in creating a shared picture that people can look at and say: “Yes, that is how the work actually happens.”
 
-### Key points to land
-
-* A process map creates shared understanding.
-* The focus is on practical mapping, not formal notation.
-* Mapping is most useful when work crosses teams, systems or approvals.
-
-### Transition
+## Transition
 
 Once we have the map, the next step is to add the evidence. That is what makes it metrics-based.
 
 ---
 
-## Slide 7 — What makes it metrics-based?
+# Slide 9 — What makes it metrics-based?
 
-### Purpose
+## Slide title
 
-Explain the difference between a normal process map and a metrics-based process map.
+What Makes It Metrics-Based?
 
-### Suggested talk track
+## Layout note
+
+Use split layout:
+
+* left side: evidence added to the map
+* right side: key statement about enough evidence, not perfect data
+
+## On-slide content
+
+A process map shows the flow. Metrics show the pain.
+
+We add evidence to make the invisible visible.
+
+## Evidence we add to the map
+
+* How often the process happens
+* How long it takes end to end
+* How much human effort is involved
+* Where work waits and where errors occur
+* How many handoffs and exceptions exist
+* What systems are touched and what risk is created
+
+We are looking for enough evidence to make a better decision — not perfect data before we start.
+
+Estimates are fine as long as we are clear they are estimates.
+
+## Key message
+
+Metrics make invisible pain visible and help validate whether the opportunity is worth pursuing.
+
+## Speaker notes
 
 A process map shows the flow. Metrics show the pain.
 
@@ -497,45 +502,89 @@ The metrics do not need to be perfect at the start. Estimates are fine, as long 
 
 We are looking for enough evidence to make a better decision — not perfect data before we start.
 
-### Key points to land
-
-* Metrics make invisible pain visible.
-* Estimates are acceptable early on.
-* The goal is better decision-making, not perfect measurement.
-
-### Transition
+## Transition
 
 Now we’ll move into how to use the approach in practice.
 
 ---
 
-# Section 4: How
+# Slide 10 — Section divider: How
 
-## Section divider — How to map, measure and assess
+## Slide title
 
-### Purpose
+How
 
-Move from explanation to practical use.
+## Layout note
 
-### Suggested talk track
+Section divider slide.
+
+Use the four-step flow prominently.
+
+## On-slide content
+
+# Section 3
+
+# How
+
+## How to map, measure and assess
+
+We keep it simple: define the process, add the evidence, then decide the right response.
+
+```text
+1. Map the work
+2. Measure the pain
+3. Decide the response
+4. Prioritise the opportunity
+```
+
+## Key message
+
+The method is simple enough to repeat.
+
+## Speaker notes
 
 The method is designed to be simple enough to repeat.
 
 We define the process, add the evidence, decide the likely response and then prioritise the opportunity.
 
-### Transition
+## Transition
 
 Let’s start with what to capture when mapping.
 
 ---
 
-## Slide 8 — What to capture when mapping
+# Slide 11 — What to capture when mapping
 
-### Purpose
+## Slide title
 
-Give the group a practical process mapping checklist.
+What to Capture When Mapping
 
-### Suggested talk track
+## Layout note
+
+Use a clear table or checklist layout.
+
+## On-slide content
+
+Start with the normal path first — then layer in decisions, handoffs and exceptions.
+
+A useful map beats a perfect one.
+
+| Element        | Question                                              |
+| -------------- | ----------------------------------------------------- |
+| **Trigger**    | What starts the process?                              |
+| **Outcome**    | What needs to be achieved?                            |
+| **Steps**      | What happens from start to finish?                    |
+| **Roles**      | Who does each step?                                   |
+| **Systems**    | What tools, forms or systems are used?                |
+| **Decisions**  | Where are choices or approvals made?                  |
+| **Handoffs**   | Where does work move between people or teams?         |
+| **Exceptions** | What happens when it deviates from the standard path? |
+
+## Key message
+
+Start simple. A useful map is better than a perfect map.
+
+## Speaker notes
 
 When you are mapping a process, start with the normal path first.
 
@@ -549,25 +598,57 @@ The exceptions are also important because they tell us how standard the process 
 
 A useful map is better than a perfect map. The point is to make the work visible enough to have a better conversation.
 
-### Key points to land
-
-* Start with the normal path.
-* Then layer in decisions, handoffs and exceptions.
-* If the process is hard to agree on, that tells us something useful.
-
-### Transition
+## Transition
 
 Once we understand the process, we can decide which metrics matter.
 
 ---
 
-## Slide 9 — Metrics that matter for automation discovery
+# Slide 12 — Metrics that matter for automation discovery
 
-### Purpose
+## Slide title
 
-Introduce the main metric groups and help the group choose relevant measures.
+Metrics That Matter for Automation Discovery
 
-### Suggested talk track
+## Layout note
+
+Use three columns:
+
+1. Effort
+2. Flow
+3. Quality & Risk
+
+Keep each bullet short.
+
+## On-slide content
+
+Not every process needs every metric. Choose measures that explain the pain and value.
+
+## Effort
+
+* **Volume** — how often it happens
+* **Touch time** — actual human effort
+* **Manual effort** — repetitive or low-value work
+
+## Flow
+
+* **Cycle time** — total elapsed time
+* **Wait time** — time spent idle
+* **Handoffs** — movement between teams
+* **Systems used** — tools, forms or platforms touched across the process
+
+## Quality & Risk
+
+* **Rework / errors** — how often work needs fixing
+* **Exceptions** — deviations from the standard path
+* **Risk impact** — what happens if it goes wrong
+* **User impact** — who feels the pain
+
+## Key message
+
+You do not need every metric — just the ones that help explain the pain and value.
+
+## Speaker notes
 
 Not every process needs every metric. The right metrics depend on the type of pain we are trying to understand.
 
@@ -581,29 +662,54 @@ Quality and risk metrics help us understand where things go wrong. That includes
 
 The key message is that you do not need every metric. You need the ones that explain the pain and value.
 
-### Optional facilitation question
+## Optional facilitation question
 
 Thinking about your own examples, which type of pain do you see most often: effort, flow, or quality and risk?
 
-### Key points to land
-
-* Metrics should match the type of pain.
-* Effort, flow, and quality/risk are useful groupings.
-* Metrics help identify value and prioritise opportunities.
-
-### Transition
+## Transition
 
 One metric distinction is especially important for automation discovery: time.
 
 ---
 
-## Slide 10 — Time is not one thing
+# Slide 13 — Time is not one thing
 
-### Purpose
+## Slide title
 
-Help the group distinguish cycle time, touch time and wait time.
+Time Is Not One Thing
 
-### Suggested talk track
+## Layout note
+
+Use a simple timeline visual.
+
+Example:
+
+```text
+Start | 5 min work | 2 days wait | 20 min work | 3 days wait | Finish
+```
+
+Show the distinction between cycle time, touch time and wait time.
+
+## On-slide content
+
+## Why this distinction matters
+
+A process that takes 5 days may involve only 25 minutes of actual work. The rest is waiting.
+
+If the issue is wait time, full automation may not be the right answer.
+
+Consider:
+
+* workflow routing and reminders
+* clearer approval thresholds
+* fewer handoffs
+* better intake processes
+
+## Key message
+
+Slow processes are not always effort-heavy processes.
+
+## Speaker notes
 
 This is one of the most important ideas in the session.
 
@@ -621,25 +727,47 @@ If the problem is wait time, the better response may be routing, reminders, clea
 
 Slow processes are not always effort-heavy processes.
 
-### Key points to land
-
-* Cycle time, touch time and wait time are different.
-* Different types of time lead to different responses.
-* Full automation is not always the answer to a slow process.
-
-### Transition
+## Transition
 
 That leads us to the next point: different pain points need different responses.
 
 ---
 
-## Slide 11 — From pain point to possible response
+# Slide 14 — From pain point to possible response
 
-### Purpose
+## Slide title
 
-Show that automation is one possible response, not the default response.
+From Pain Point to Possible Response
 
-### Suggested talk track
+## Layout note
+
+Use a two-column table:
+
+* pain point
+* possible response
+
+## On-slide content
+
+Automation is one possible response — not the only one.
+
+Match the fix to the real problem.
+
+| Pain point              | Possible response                                 |
+| ----------------------- | ------------------------------------------------- |
+| Missing information     | Better form, validation or guidance               |
+| Manual data entry       | Integration or data transfer automation           |
+| Long approval delay     | Workflow routing, reminders or escalation         |
+| Repeated status chasing | Automated notifications or dashboard              |
+| Frequent rework         | Standardisation, validation or clearer rules      |
+| Inconsistent decisions  | Decision tree, policy clarification or guardrails |
+| Too many exceptions     | Process redesign before automation                |
+| Poor visibility         | Tracking, reporting or workflow transparency      |
+
+## Key message
+
+The right response may be automation, process improvement, standardisation, clearer rules — or a combination.
+
+## Speaker notes
 
 This slide is about matching the response to the real problem.
 
@@ -659,25 +787,55 @@ If there are too many exceptions, the process may need redesign before automatio
 
 The key idea is that automation is one possible response. Sometimes the right first step is simplification, standardisation, better information or clearer ownership.
 
-### Key points to land
-
-* Do not jump straight from pain to automation.
-* Match the response to the problem.
-* Process improvement and automation often work together.
-
-### Transition
+## Transition
 
 Once we understand the pain and possible response, we need a way to assess whether the opportunity is worth taking forward.
 
 ---
 
-## Slide 12 — Assessing automation opportunities
+# Slide 15 — Assessing automation opportunities
 
-### Purpose
+## Slide title
 
-Introduce value, feasibility and readiness as the core assessment lenses.
+Assessing Automation Opportunities
 
-### Suggested talk track
+## Layout note
+
+Use three cards or a three-circle Venn diagram:
+
+1. Value
+2. Feasibility
+3. Readiness
+
+## On-slide content
+
+Use three lenses to evaluate each candidate.
+
+All three must align for a strong opportunity.
+
+## Value
+
+Is this worth solving?
+
+Look for time saved, risk reduced, rework reduced, better experience.
+
+## Feasibility
+
+Can we automate it?
+
+Look for clear rules, stable data, system access and a technical pathway.
+
+## Readiness
+
+Is the process ready?
+
+Look for a process owner, agreed steps, a stable process and stakeholder support.
+
+## Key message
+
+A good automation candidate needs to be valuable, feasible and ready.
+
+## Speaker notes
 
 When assessing automation opportunities, we use three lenses: value, feasibility and readiness.
 
@@ -693,25 +851,58 @@ A process can be valuable but not feasible yet. It can be feasible but not valua
 
 Readiness is often the lens that gets missed, but it is critical.
 
-### Key points to land
-
-* Value, feasibility and readiness all matter.
-* Technical feasibility is not enough by itself.
-* Painful processes are not always ready for automation.
-
-### Transition
+## Transition
 
 The next slide gives us a quick sense-check for strong and less ready candidates.
 
 ---
 
-## Slide 13 — Strong vs less ready automation candidates
+# Slide 16 — Strong vs less ready automation candidates
 
-### Purpose
+## Slide title
 
-Help participants quickly identify whether an opportunity looks suitable for automation.
+Strong vs Less Ready Automation Candidates
 
-### Suggested talk track
+## Layout note
+
+Two-column comparison.
+
+Left: strong candidates.
+Right: less ready candidates.
+
+Use constructive wording and avoid implying that less ready candidates are not worth improving.
+
+## On-slide content
+
+## Strong candidates usually have…
+
+* Regular or high volume
+* Repetitive steps
+* Clear rules and decision logic
+* Stable inputs and outputs
+* Significant manual effort
+* Measurable errors or rework
+* Accessible systems or data
+* Clear process owner
+
+## Less ready candidates often have…
+
+* Low volume
+* High judgement required
+* Unclear decision-making
+* Poor data quality
+* Too many exceptions
+* Unstable or evolving process
+* Unresolved policy or governance questions
+* Unclear ownership
+
+**Remember:** not ready for automation does not mean not worth improving.
+
+## Key message
+
+Some processes need improvement before automation.
+
+## Speaker notes
 
 This slide gives us a quick sense-check.
 
@@ -723,45 +914,88 @@ That does not mean those processes are not worth improving. It just means they m
 
 Sometimes the best next step is to standardise the process, clean up the data, clarify decision rules or assign ownership before looking at automation.
 
-### Key points to land
-
-* “Not ready” does not mean “not important.”
-* Some processes need improvement before automation.
-* This slide helps categorise opportunities constructively.
-
-### Transition
+## Transition
 
 We have now covered the method. The next step is to apply it to real scenarios.
 
 ---
 
-# Section 5: Apply
+# Slide 17 — Section divider: Apply
 
-## Section divider — Applying the method to real scenarios
+## Slide title
 
-### Purpose
+Apply
 
-Move into the interactive scenario clinic.
+## Layout note
 
-### Suggested talk track
+Section divider slide.
+
+Use a large **Apply** heading and a short prompt.
+
+## On-slide content
+
+# Apply
+
+## Applying the Method to Real Scenarios
+
+Now we test the approach against actual processes and automation ideas.
+
+The goal is not to solve everything in the room — it is to test the quality of the opportunity and agree on the next best action.
+
+## Key message
+
+The scenario clinic is about deciding the next best action.
+
+## Speaker notes
 
 Now we are going to test the method against real examples.
 
 The goal is not to solve everything in the room. The goal is to test the quality of the opportunity and agree the next best action.
 
-### Transition
+## Transition
 
 Let’s use the scenario clinic structure to guide the discussion.
 
 ---
 
-## Slide 14 — Scenario clinic
+# Slide 18 — Scenario clinic
 
-### Purpose
+## Slide title
 
-Guide the live application of the method to real examples.
+Scenario Clinic
 
-### Suggested talk track
+## Layout note
+
+Use this as the live anchor slide for discussion.
+
+Suggested layout:
+
+* top: four opportunity categories
+* bottom: four core questions
+
+## On-slide content
+
+## Where does this land?
+
+| Category                | Meaning                                  |
+| ----------------------- | ---------------------------------------- |
+| **Automate Now**        | High value, feasible and ready           |
+| **Improve First**       | Worth solving, but process needs tidying |
+| **Investigate Further** | Need more data or a technical assessment |
+| **Do Not Automate Yet** | Low value, unstable or unclear           |
+
+## To find out, we ask:
+
+1. What is the process, and where does it start and end?
+2. Where is the pain — effort, delay, errors or something else?
+3. What evidence do we have, and what are we missing?
+4. Is the right response automation, improvement or both?
+
+## Key message
+
+We are deciding the next best action, not fully solving the process in the room.
+
+## Speaker notes
 
 For each scenario, we are going to work through four core questions.
 
@@ -777,7 +1011,7 @@ Then we will decide where the scenario lands: automate now, improve first, inves
 
 The output is not a final solution. The output is the next best action.
 
-### Facilitation flow
+## Facilitation flow
 
 1. Ask for one scenario.
 2. Name the process clearly.
@@ -790,39 +1024,68 @@ The output is not a final solution. The output is the next best action.
 9. Categorise the opportunity.
 10. Agree the next best action.
 
-### Prompts if the group jumps to solutions
+## Prompts if the group jumps to solutions
 
 * Before we decide the solution, what is the process telling us?
 * What evidence do we have that this is the biggest pain point?
 * Is this an automation problem, or is there something that needs to be clarified first?
 * What would need to be true for this to be ready to automate?
 
-### Prompts if the group gets too detailed
+## Prompts if the group gets too detailed
 
 * Let’s stay at the discovery level for now.
 * We do not need to solve the whole process in the room.
 * What is the next best action from here?
 * What evidence would help us decide whether to take this forward?
 
-### Key points to land
-
-* The scenario clinic is about testing opportunity quality.
-* The outcome is a next step, not a finished solution.
-* The categories help move the conversation forward constructively.
-
-### Transition
+## Transition
 
 Let’s wrap up with what we have covered and the suggested next steps.
 
 ---
 
-## Slide 15 — Wrap-up and next steps
+# Slide 19 — Wrap-up and next steps
 
-### Purpose
+## Slide title
 
-Close the session and make the follow-up actions clear.
+Wrap-Up and Next Steps
 
-### Suggested talk track
+## Layout note
+
+Two-column layout:
+
+* left: today we covered
+* right: suggested next steps
+
+End with the workshop anchor.
+
+## On-slide content
+
+## Today we covered
+
+* Why automation discovery needs evidence
+* How to map the work
+* How to add useful metrics
+* How to identify pain points
+* How to avoid jumping straight to automation
+* How to assess value, feasibility and readiness
+* How to categorise opportunities
+
+## Suggested next steps
+
+1. Choose 2–3 candidate processes to map in more detail.
+2. Validate the process with people who do the work.
+3. Gather missing metrics.
+4. Confirm each scenario’s category.
+5. Build a small, evidence-based automation opportunity backlog.
+
+**Map the work. Measure the pain. Automate with purpose.**
+
+## Key message
+
+The workshop is the start of a repeatable discovery approach, not a one-off conversation.
+
+## Speaker notes
 
 Today we have covered why automation discovery needs evidence, how to map the work, how to add useful metrics, how to identify pain points, how to avoid jumping straight to automation, and how to assess value, feasibility and readiness.
 
@@ -836,208 +1099,53 @@ From there, validate the process with the people who do the work, gather any mis
 
 The aim is to build a small, evidence-based automation opportunity backlog.
 
-### Closing line
+## Closing line
 
 Map the work. Measure the pain. Automate with purpose.
 
-### Key points to land
+---
 
-* The workshop is a starting point, not the whole discovery process.
-* The team should take forward a small number of candidate processes.
-* The method should help them build an evidence-based automation backlog.
+# Optional appendix slide — Methods this approach draws from
+
+## Slide title
+
+Methods This Approach Draws From
+
+## Layout note
+
+Use as backup or appendix only.
+
+## On-slide content
+
+Metrics Based Process Mapping is a practical blended approach.
+
+| Method / discipline             | What it contributes                                       |
+| ------------------------------- | --------------------------------------------------------- |
+| **Process mapping**             | Steps, decisions, roles, systems, handoffs and exceptions |
+| **Value stream mapping / Lean** | Flow, wait time, cycle time, waste and value              |
+| **Business process management** | Process ownership, standardisation and improvement        |
+| **Process measurement**         | Baseline data, performance indicators and evidence        |
+| **Automation discovery**        | Value, feasibility, readiness and prioritisation          |
+
+**Key message:** This is not about applying a heavy methodology. It is about using recognised practices in a lightweight, practical way.
+
+## Speaker notes
+
+Use this only if the group asks where the approach comes from or if you need to reinforce that it is grounded in recognised practice.
 
 ---
 
-## 10. Scenario clinic guidance
+# Optional appendix slide — Worked example
 
-The scenario clinic is the most important part of the workshop.
+## Slide title
 
-It is where the method becomes useful. The goal is not to fully solve the process. The goal is to test the quality of the opportunity and identify the next best action.
+Worked Example: New Starter Access Request
 
-### Scenario clinic questions
+## Layout note
 
-For each scenario, ask:
+Use as facilitator backup or optional worked example.
 
-1. What is the process, and where does it start and end?
-2. Where is the pain — effort, delay, errors, risk, rework or something else?
-3. What evidence do we have, and what are we missing?
-4. Is the right response automation, improvement or both?
-5. Where does this land: automate now, improve first, investigate further or do not automate yet?
-6. What is the next best action?
-
-### Suggested timebox
-
-For a 90-minute workshop, aim to spend around 20–25 minutes on scenario discussion.
-
-If the group has additional time, use the buffer to go deeper into one scenario or work through another example.
-
-### Scenario selection tips
-
-Choose a scenario that is:
-
-* specific enough to discuss
-* familiar to several people in the room
-* connected to a real pain point
-* not too broad
-* not already fully solved
-* suitable for exploring effort, flow, quality or risk
-
-Avoid scenarios that are too vague, such as:
-
-* “fix onboarding”
-* “automate reporting”
-* “improve finance”
-* “use AI for operations”
-
-Help the group narrow these into something more specific:
-
-| Too broad   | Better                                          |
-| ----------- | ----------------------------------------------- |
-| Onboarding  | Requesting system access for a new starter      |
-| Reporting   | Creating the weekly operational status report   |
-| Finance     | Approving low-value supplier invoices           |
-| IT requests | Triage of standard service desk access requests |
-| Compliance  | Collecting evidence for a monthly control check |
-
----
-
-## 11. Opportunity categories
-
-Use these categories to close each scenario.
-
-| Category                | Meaning                                      | Typical next action                                |
-| ----------------------- | -------------------------------------------- | -------------------------------------------------- |
-| **Automate now**        | High value, feasible and ready               | Move into automation discovery or design           |
-| **Improve first**       | Worth solving, but process needs tidying     | Clarify, simplify, standardise or assign ownership |
-| **Investigate further** | Potential value, but more evidence is needed | Gather data or assess technical feasibility        |
-| **Do not automate yet** | Low value, unstable or unclear               | Defer or address underlying process issues         |
-
-### Example closing statement
-
-> This sounds like an “improve first” candidate. There is likely value here, but the process needs clearer ownership and better intake before automation would be sensible. The next best action is to validate the process with the people doing the work and gather rough volume and rework data.
-
----
-
-## 12. Common facilitation challenges
-
-### Challenge: The group jumps straight to a tool
-
-Bring the conversation back to the process.
-
-Prompts:
-
-* Before we decide the solution, what is the process telling us?
-* What problem are we solving?
-* What evidence do we have that this is the biggest pain point?
-* What would need to be true for this to be ready to automate?
-
----
-
-### Challenge: The group debates too much detail
-
-Keep the discussion at discovery level.
-
-Prompts:
-
-* That detail may be important later, but for now what is the core pain point?
-* We do not need to solve the whole process in the room.
-* What evidence would help us decide whether to take this forward?
-* What is the next best action?
-
----
-
-### Challenge: The group cannot agree on the process
-
-Treat disagreement as useful evidence.
-
-Prompts:
-
-* That may tell us the process is not as standard as we thought.
-* Let’s capture the different paths rather than forcing agreement too early.
-* Does this need process clarification before automation?
-* Who would need to be involved to validate the current process?
-
----
-
-### Challenge: The process is painful but unclear
-
-Categorise it as “improve first” or “investigate further”.
-
-Prompts:
-
-* This may be worth solving, but what needs to be clarified first?
-* Do we know who owns this process?
-* Are the rules clear enough to automate?
-* What evidence would help us make a better decision?
-
----
-
-### Challenge: The automation idea is technically possible but low value
-
-Acknowledge feasibility, then return to value.
-
-Prompts:
-
-* It sounds possible, but is it valuable enough to prioritise?
-* What pain would this actually remove?
-* How often does this happen?
-* What would improve if this was automated?
-
----
-
-### Challenge: Participants do not have metrics
-
-Normalise estimates and identify what needs validation.
-
-Prompts:
-
-* A rough estimate is fine for now.
-* Do we know if this happens daily, weekly or monthly?
-* Is this a five-minute problem or a five-hour problem?
-* What data could we gather after this session?
-* Who would know the rough volume or rework rate?
-
----
-
-## 13. Facilitator prompts
-
-### Prompts for the Why section
-
-* What usually triggers automation ideas in your area?
-* Do ideas usually start with a problem, a process or a tool?
-* Which automation trap feels most familiar?
-
-### Prompts for the What section
-
-* Where do you currently have processes that different people understand differently?
-* Where do you think the pain is visible but not well measured?
-* Where would a shared process view help?
-
-### Prompts for the How section
-
-* What metrics would be easiest for you to estimate?
-* Where do you see wait time rather than actual work time?
-* Where do handoffs create delay or rework?
-* Which processes have lots of exceptions?
-
-### Prompts for the Apply section
-
-* What is the process we are looking at?
-* Where does it start and end?
-* What outcome is needed?
-* Where is the pain?
-* What evidence do we have?
-* What are we assuming?
-* Is this automation, improvement or both?
-* What is the next best action?
-
----
-
-## 14. Worked example for facilitator backup
-
-Use this example if participants do not bring a suitable scenario or if you want to demonstrate the method before the scenario clinic.
-
-### Example: New starter access request
+## On-slide content
 
 | Step                    | Pain / metric           | Possible response              |
 | ----------------------- | ----------------------- | ------------------------------ |
@@ -1047,76 +1155,10 @@ Use this example if participants do not bring a suitable scenario or if you want
 | User notified           | Sometimes missed        | Automated notification         |
 | Access checked later    | Inconsistent review     | Scheduled review workflow      |
 
-### Teaching point
+**Key message:** The opportunity may not be “automate the whole process”. It may be several targeted improvements.
 
-The opportunity may not be “automate access requests” as one big thing.
+## Speaker notes
 
-It may be several targeted improvements:
+Use this example if participants do not bring a suitable scenario or if the group needs to see a simple example before moving into the scenario clinic.
 
-* improve intake
-* automate routing
-* automate standard provisioning
-* automate notifications
-* schedule review reminders
-
-### Suggested facilitator question
-
-Is this automation, process improvement or both?
-
----
-
-## 15. After the workshop
-
-After the session, the facilitator or owning team should:
-
-1. Capture the scenarios discussed.
-2. Confirm the opportunity category for each scenario.
-3. Identify missing evidence or metrics.
-4. Assign owners for follow-up actions.
-5. Validate the process with people who do the work.
-6. Gather rough metrics if they are missing.
-7. Build or update the automation opportunity backlog.
-
-### Recommended follow-up artefacts
-
-* completed scenario clinic capture
-* process mapping canvas
-* metrics checklist
-* automation opportunity assessment
-* opportunity backlog
-
----
-
-## 16. Optional follow-up session
-
-A follow-up session may be useful if the team needs help applying the method independently.
-
-A simple follow-up can be 45–60 minutes and focus on reviewing two or three mapped candidate processes.
-
-### Suggested follow-up agenda
-
-|       Time | Focus                                   |
-| ---------: | --------------------------------------- |
-|   0–5 mins | Recap the method                        |
-|  5–35 mins | Review candidate processes              |
-| 35–50 mins | Assess value, feasibility and readiness |
-| 50–60 mins | Confirm categories and next actions     |
-
-The follow-up session should help the team test whether their mapped scenarios are clear enough to move into automation discovery, improvement or further investigation.
-
----
-
-## 17. Final facilitator reminders
-
-* Keep the session practical.
-* Keep bringing the group back to the work.
-* Do not let the group jump too quickly to tools.
-* Treat pain as a signal, not the final answer.
-* Use estimates where data is missing.
-* Capture assumptions clearly.
-* Focus on the next best action.
-* Reinforce that “not ready for automation” does not mean “not worth improving”.
-
-Close with the workshop anchor:
-
-> **Map the work. Measure the pain. Automate with purpose.**
+The main teaching point is that automation is often not one large solution. It may be a combination of better intake, routing, standard provisioning, notifications and scheduled review.
