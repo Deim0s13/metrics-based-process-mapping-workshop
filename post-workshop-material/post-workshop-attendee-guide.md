@@ -1,8 +1,8 @@
 # Post-Workshop Attendee Guide
 
-Use this guide after the **Metrics Based Process Mapping for Automation Discovery** workshop to continue the work started in the session.
+Use this guide after the **Metrics-Based Process Mapping for Automation Discovery** workshop to continue the work started in the session.
 
-The workshop is designed to help identify candidate automation opportunities, but the real value comes from validating the process, gathering evidence and deciding the next best action.
+The workshop is designed to help identify candidate automation opportunities, but the real value lies in validating the process, gathering evidence, and deciding the next best action
 
 > **Map the work. Measure the pain. Automate with purpose.**
 
@@ -10,12 +10,12 @@ The workshop is designed to help identify candidate automation opportunities, bu
 
 ## 1. What we covered
 
-In the workshop, we worked through a lightweight approach for assessing automation opportunities.
+In the workshop, we explored a lightweight approach to assessing automation opportunities
 
 The core method was:
 
 ```text
-Map the work → Measure the pain → Decide the response → Prioritise the opportunity
+Map the work → Measure the pain → Decide the response → Prioritise the opportunity.
 ```
 
 This means:
@@ -56,15 +56,15 @@ Before moving into automation design, make sure the current process is understoo
 
 Use the `process-mapping-canvas.md` template to validate:
 
-- what starts the process
-- where the process begins and ends
-- what outcome is needed
-- who is involved
-- what systems, tools, forms or spreadsheets are used
-- where decisions or approvals happen
-- where work moves between people or teams
-- where exceptions occur
-- where pain, delay, rework or risk exists
+- What starts the process
+- Where the process begins and ends
+- What outcome is needed
+- Who is involved
+- What systems, tools, forms or spreadsheets are used
+- Where decisions or approvals happen
+- Where work moves between people or teams
+- Where exceptions occur
+- Where pain, delay, rework or risk exists
 
 ### Suggested validation questions
 
@@ -77,9 +77,9 @@ Ask people who do the work:
 - What exceptions happen most often?
 - What information is usually missing or unclear?
 - Which systems are used as the source of truth?
-- Who owns the process end to end?
+- Who owns the process end-to-end?
 
-If people disagree about how the process works, capture that. It may mean the process needs clarification before automation.
+If people disagree about how the process works, capture that. It may mean the process needs clarification before it can be automated.
 
 ---
 
@@ -91,7 +91,7 @@ Use the `metrics-checklist.md` template to capture useful evidence.
 
 ### Effort metrics
 
-Use these when the pain is manual or repetitive work.
+Use these when the pain is assiciated with manual or repetitive work.
 
 | Metric | Question |
 |---|---|
@@ -101,7 +101,7 @@ Use these when the pain is manual or repetitive work.
 
 ### Flow metrics
 
-Use these when the pain is delay, waiting, handoffs or poor visibility.
+Use these when the pain is delayed, waiting, handoffs or poor visibility.
 
 | Metric | Question |
 |---|---|
@@ -112,7 +112,7 @@ Use these when the pain is delay, waiting, handoffs or poor visibility.
 
 ### Quality and risk metrics
 
-Use these when the pain is errors, rework, exceptions, inconsistency or risk.
+Use these when the pain is due to errors, rework, exceptions, inconsistency or risk.
 
 | Metric | Question |
 |---|---|
@@ -143,7 +143,7 @@ If a process feels slow, separate the type of time involved.
 | **Touch time** | Actual human effort | Someone spends 25 minutes processing it |
 | **Wait time** | Time sitting idle between steps | It waits three days for approval |
 
-A process may take several days but only involve a small amount of actual work.
+A process may take several days but involves only a small amount of actual work.
 
 If the problem is mostly **touch time**, automation may help reduce manual effort.
 
@@ -177,7 +177,7 @@ Use the evidence to decide what kind of response is most appropriate.
 | Too many exceptions | Process redesign before automation |
 | Poor visibility | Tracking, reporting or workflow transparency |
 
-Some opportunities may need process improvement before automation. Others may need technical investigation. Some may be suitable for targeted automation now.
+Some opportunities may need process improvement before automation. Others may need a technical investigation. Some may be suitable for targeted automation now.
 
 ---
 
@@ -199,7 +199,7 @@ It should be:
 - feasible enough to automate
 - ready enough to change
 
-A process can be painful but not ready for automation. That does not mean it is not worth improving.
+A process can be painful, but not ready for automation. That does not mean it is not worth improving.
 
 ---
 
@@ -280,7 +280,7 @@ Within the first week after the workshop:
 - [ ] Add each candidate to the opportunity backlog.
 - [ ] Assign owners for missing evidence or validation actions.
 
-The first week is about keeping momentum and avoiding the workshop becoming a one-off conversation.
+The first week is about keeping momentum and avoiding the workshop from becoming a one-off conversation.
 
 ---
 
@@ -294,11 +294,11 @@ Within 30 days of the workshop:
 - [ ] Categorise each opportunity as automate now, improve first, investigate further or do not automate yet.
 - [ ] Identify any quick wins.
 - [ ] Identify any process improvements needed before automation.
-- [ ] Identify any opportunities that need technical feasibility assessment.
+- [ ] Identify any opportunities that need a technical feasibility assessment.
 - [ ] Review and update the opportunity backlog.
 - [ ] Decide whether a follow-up session is needed.
 
-The first 30 days should move the strongest candidates from discussion to evidence-based decision.
+The first 30 days should move the strongest candidates from discussion to an evidence-based decision.
 
 ---
 
@@ -315,7 +315,7 @@ A simple follow-up session can run for 45–60 minutes.
 | 35–50 mins | Assess value, feasibility and readiness |
 | 50–60 mins | Confirm categories and next actions |
 
-The purpose of the follow-up session is to test whether the mapped scenarios are clear enough to move into automation discovery, process improvement or further investigation.
+The purpose of the follow-up session is to test whether the mapped scenarios are clear enough to proceed with automation discovery, process improvement, or further investigation.
 
 ---
 

@@ -1,6 +1,6 @@
 # Post-Workshop One-Page Summary
 
-## Metrics Based Process Mapping for Automation Discovery
+## Metrics-Based Process Mapping for Automation Discovery
 
 > **Map the work. Measure the pain. Automate with purpose.**
 
@@ -23,7 +23,7 @@ Map the work → Measure the pain → Decide the response → Prioritise the opp
 | **Decide the response** | Determine whether automation, improvement, standardisation or investigation is needed |
 | **Prioritise the opportunity** | Focus on candidates that are valuable, feasible and ready |
 
-The goal is not to automate everything. The goal is to identify the right opportunities and agree the next best action.
+The goal is not to automate everything. The goal is to identify the right opportunities and agree on the next best action.
 
 ---
 
